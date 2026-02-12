@@ -28,7 +28,7 @@ jobs:
 
       - name: Run Pytest
         run: |
-          PYTHONPATH=src pytest
+          python -m pytest
 
       - name: Create Mystery Box Artifact
         run: |

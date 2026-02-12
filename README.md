@@ -1,0 +1,1 @@
+[![CI Pipeline](https://github.com/ethCS/CSCI391_THE_GATEKEEPER/actions/workflows/ci.yaml/badge.svg)](https://github.com/ethCS/CSCI391_THE_GATEKEEPER/actions/workflows/ci.yaml)

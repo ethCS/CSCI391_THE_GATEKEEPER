@@ -1,4 +1,3 @@
-import pytest
 from src.main import conversion, is_strong, average
 
 

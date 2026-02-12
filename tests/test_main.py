@@ -1,5 +1,5 @@
 import pytest
-from src.main import conversion, is_strong
+from src.main import conversion, is_strong, average
 
 def test_conversion():
     # 100C should be 212F
@@ -12,3 +12,7 @@ def test_logic():
     # Carl's code returns True because 60 > 50.
     data = [40, 40, 60]
     assert is_strong(data) is False
+
+def test_average():
+    data = [10, 20, 30]
+    assert average(data) == 20
